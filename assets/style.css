@@ -1,0 +1,260 @@
+body {
+    background-color: #F8F8F8;
+}  
+
+.header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 10;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header-break {
+    width: 100%;
+    height: 88px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.banner {
+    height: 318px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/018/929/graphic_design_is_my_passion.jpg);
+    /* background-attachment:fixed; */
+    background-size: auto;
+    background-position: left;
+    /* top:75px; */
+    /* left: 10px; */
+}
+
+.container {
+    width: 75%;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 13.5%;
+    text-align: center;
+}
+
+section img {
+    transform: scale(150%);
+
+}
+
+.about-me-box {
+    /* margin-bottom: 10px; */
+    display: inline-block;
+    padding: 50px;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    width:100%;
+    margin-bottom: 25px;;
+}
+
+.about-me-title {
+    position: relative;
+    top:-20px;
+    left: -55px;
+    font-size: 55px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    width:10%;
+    border: 1px solid black;
+}
+
+.portfolio-box {
+    /* text-align: center; */
+    /* border: 1px solid black; */
+}
+
+.flex-title-portfolio {
+    font-size: 50px;
+    margin-bottom: 15px;;
+}
+
+.flex-container {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 250px;
+    /* border: 1px solid black; */
+    
+}
+
+.about-me-blurb {
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    text-align:center;
+    left: -40px;
+    
+        
+}
+
+
+.flex-box-1,
+.flex-box-2,
+.flex-box-3,
+.flex-box-4 {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex: 1 0 20%;
+    /* padding: 20px; */
+    /* border: 1px solid black; */
+    text-align: center;
+    height:100%;
+    
+}
+
+.flex-box-1{
+    background-image: url(https://img.freepik.com/free-photo/surfer-big-blue-ocean-wave-ai-generative_123827-23867.jpg?size=626&ext=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.flex-box-1:hover{
+    filter: blur(2px);
+}
+
+.flex-box-2{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Casio_calculator_JS-20WK_in_201901_002.jpg/666px-Casio_calculator_JS-20WK_in_201901_002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-box-2:hover{
+    filter: blur(2px);
+}
+
+.flex-box-3{
+    background-image: url(https://plus.unsplash.com/premium_photo-1675433331160-c1986b86673b?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGVkJTIwc2NyZWVufGVufDB8fDB8fHww);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-box-3:hover{
+    filter: blur(2px);
+}
+
+.flex-box-4{
+    background-image: url(https://previews.123rf.com/images/liakoltyrina/liakoltyrina2002/liakoltyrina200200012/139661313-mosaic-of-four-colorful-puzzles-hand-drawing-style-pastel-colors.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.flex-box-4:hover{
+    filter: blur(2px);
+}
+
+div h2 {
+    color: white;
+    font-size: 30px;
+    width:100%;
+    background-color: darkblue;
+}
+
+
+.flex-title-contact-me{
+    display: inline-block;
+    margin-top: 35px;
+    justify-content: center;
+    color: darkblue;
+    font-size:55px;
+}
+
+.contact-me-links a {
+    display:inline-block;
+    font-size: 45px;
+    color: darkblue;
+    margin: 35px;
+    text-decoration: underline;
+
+}
+
+.contact-me-links a:link {
+    color: darkblue;
+}
+
+.contact-me-links a:visited {
+    color: blue;
+}
+
+.contact-me-links a:hover {
+    color: blue;
+}
+  
+.contact-me-links a:active {
+    color: blue;
+}
+
+@media screen and (max-width: 998px) {
+    .flex-container {
+        flex-direction: column;
+        height:1000px;
+        
+    }
+
+    .float-left {
+        float: unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about-me-box h2 {
+        display:block;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width: 586px) {
+    .flex-container {
+        flex-direction: column;
+        height:1000px;
+        
+    }
+}
