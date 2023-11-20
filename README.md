@@ -9,7 +9,7 @@ Project Name: Portfolio
 Description: The intention behind the portfolio project is to build a foundation for a personal portfolio that I will use to display future projects.
 Live Demo: https://interuptingcow.github.io/My-Portfolio/
 Author: Nicholas Padovese
-![screenshot](image.png)
+![screenshot](image-1.png)
 
 ## Description
 
